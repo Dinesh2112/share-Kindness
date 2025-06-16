@@ -1,0 +1,24 @@
+.donor-list-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .donor-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .donor-table th, .donor-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .donor-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .donor-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }

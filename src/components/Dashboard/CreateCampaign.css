@@ -1,0 +1,138 @@
+/* Overall Form Container */
+.create-campaign-form {
+    width: 70%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    max-width: 900px;
+  }
+  
+  /* Form Title */
+  .create-campaign-form h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  /* Form Groups (inputs, labels, etc.) */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .form-group input[type="file"] {
+    border: none;
+    padding: 0;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  .form-group textarea {
+    min-height: 150px;
+    resize: vertical;
+  }
+  
+  /* Image Previews */
+  .photos-preview {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .photos-preview img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Button Styling */
+  button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+  }
+  
+  button:active {
+    transform: translateY(1px);
+  }
+  
+  /* Input File Styling */
+  input[type="file"] {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px dashed #ddd;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  input[type="file"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  /* For Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .create-campaign-form {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .form-group label {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 16px;
+    }
+  
+    .photos-preview img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  

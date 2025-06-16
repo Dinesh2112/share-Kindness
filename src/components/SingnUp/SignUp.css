@@ -1,0 +1,114 @@
+.signup-container {
+    padding: 2.5rem;
+    max-width: 500px;
+    margin: 120px auto 2rem;  /* Added top margin to account for fixed navbar */
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    font-family: 'Poppins', sans-serif;
+}
+
+.signup-container h2 {
+    color: #1e293b;
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.signup-form {
+    margin-top: 1.5rem;
+}
+
+.signup-form input {
+    width: 100%;
+    margin-bottom: 1.25rem;
+    padding: 0.875rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    background-color: #f8fafc;
+}
+
+.signup-form input:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 0.875rem;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+}
+
+.signup-form button:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-1px);
+}
+
+.google-signup-container {
+    margin-top: 2rem;
+    position: relative;
+}
+
+.google-signup-container::before {
+    content: "OR";
+    position: absolute;
+    top: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    padding: 0 1rem;
+    color: #64748b;
+    font-size: 0.875rem;
+}
+
+.google-signup-btn {
+    width: 100%;
+    padding: 0.875rem 1.5rem;
+    background-color: #ffffff;
+    color: #1e293b;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    transition: all 0.3s ease;
+}
+
+.google-signup-btn:hover {
+    background-color: #f8fafc;
+    border-color: #2563eb;
+}
+
+.error-message {
+    color: #ef4444;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    padding: 0.5rem;
+    background-color: #fee2e2;
+    border-radius: 6px;
+}
+
+/* Add responsive design */
+@media (max-width: 640px) {
+    .signup-container,
+    .login-container {
+        margin: 100px 1rem 2rem;
+        padding: 1.5rem;
+    }
+}
