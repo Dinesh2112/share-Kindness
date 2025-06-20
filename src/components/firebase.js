@@ -6,7 +6,7 @@ import { getAnalytics } from "firebase/analytics";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAL7B-n93D4EKv2_MQ9JMhxpucHe3Dwevo",
+  
   authDomain: "sharekindness-46f08.firebaseapp.com",
   projectId: "sharekindness-46f08",
   storageBucket: "sharekindness-46f08.firebasestorage.app",  // Add Storage Bucket URL here
